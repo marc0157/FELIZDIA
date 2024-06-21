@@ -60,8 +60,16 @@ html{
 	padding: 10px 10px;
 
 }
+.contenedor-iconos {
+    text-align: center; /* Centra horizontalmente */
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+}
+
 .fa-heart {
-    color: magenta; /* Esto cambiará el color de los iconos a magenta */
+    color: magenta; /* Color magenta para los iconos */
+    transform: scale(0.5); /* Reduce el tamaño a la mitad */
 }
 
 #inicio .contenido header .contenido-header .inicio-dos {
