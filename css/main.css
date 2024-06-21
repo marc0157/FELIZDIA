@@ -62,32 +62,8 @@ html{
 }
 
 .fa-heart {
-    /* Color inicial */
-    color: #FF0000; /* Rojo */
-
-    /* Transición suave para el cambio de color */
-    transition: color 2s ease-in-out;
-
-    /* Escala inicial */
+    color: magenta; /* Color magenta para los iconos */
     transform: scale(0.5); /* Reduce el tamaño a la mitad */
-}
-
-/* Animación para cambiar automáticamente el color */
-@keyframes neonColor {
-    0% {
-        color: #FF0000; /* Rojo */
-    }
-    50% {
-        color: #FF00FF; /* Magenta */
-    }
-    100% {
-        color: #DC143C ;/* Carmesí */
-    }
-}
-
-/* Aplicar la animación al corazón */
-.fa-heart {
-    animation: neonColor 5s infinite alternate; /* Repetir la animación infinitamente */
 }
 
 
