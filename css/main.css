@@ -62,9 +62,18 @@ html{
 }
 
 .fa-heart {
-    color: magenta; /* Color magenta para los iconos */
+    /* Color rojo */
+    color: #FF0000; /* Código hexadecimal para el rojo */
+
+    /* Color magenta */
+    /* Puedes usar #FF00FF o rgb(255, 0, 255) para el magenta */
+
+    /* Color carmesí */
+    color: #DC143C; /* Código hexadecimal para el carmesí */
+    
     transform: scale(0.5); /* Reduce el tamaño a la mitad */
 }
+
 
 #inicio .contenido header .contenido-header .inicio-dos {
 	list-style: none;
