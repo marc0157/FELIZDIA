@@ -60,12 +60,6 @@ html{
 	padding: 10px 10px;
 
 }
-.contenedor-iconos {
-    text-align: center; /* Centra horizontalmente */
-    display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: center;
-}
 
 .fa-heart {
     color: magenta; /* Color magenta para los iconos */
