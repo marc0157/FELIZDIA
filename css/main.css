@@ -60,6 +60,9 @@ html{
 	padding: 10px 10px;
 
 }
+.fa-heart {
+    color: magenta; /* Esto cambiará el color de los iconos a magenta */
+}
 
 #inicio .contenido header .contenido-header .inicio-dos {
 	list-style: none;
