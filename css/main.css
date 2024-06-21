@@ -62,17 +62,34 @@ html{
 }
 
 .fa-heart {
-    /* Color rojo */
-    color: #FF0000; /* Código hexadecimal para el rojo */
+    /* Color inicial */
+    color: #FF0000; /* Rojo */
 
-    /* Color magenta */
-    /* Puedes usar #FF00FF o rgb(255, 0, 255) para el magenta */
+    /* Transición suave para el cambio de color */
+    transition: color 2s ease-in-out;
 
-    /* Color carmesí */
-    color: #DC143C; /* Código hexadecimal para el carmesí */
-    
+    /* Escala inicial */
     transform: scale(0.5); /* Reduce el tamaño a la mitad */
 }
+
+/* Animación para cambiar automáticamente el color */
+@keyframes neonColor {
+    0% {
+        color: #FF0000; /* Rojo */
+    }
+    50% {
+        color: #FF00FF; /* Magenta */
+    }
+    100% {
+        color: #DC143C ;/* Carmesí */
+    }
+}
+
+/* Aplicar la animación al corazón */
+.fa-heart {
+    animation: neonColor 5s infinite alternate; /* Repetir la animación infinitamente */
+}
+
 
 
 #inicio .contenido header .contenido-header .inicio-dos {
