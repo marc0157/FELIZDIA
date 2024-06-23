@@ -66,8 +66,8 @@ html{
     transform: scale(0.5); /* Reduce el tamaño a la mitad */
 }
 .fa-gem {
-    color: magenta; /* Color magenta para los iconos */
-    transform: scale(0.5); /* Reduce el tamaño a la mitad */
+    color: yellow; /* Color magenta para los iconos */
+    transform: scale(1.5); /* Reduce el tamaño a la mitad */
 }
 
 
